@@ -22,7 +22,7 @@
 Сервис должен реализовать 2 API эндпойнта (REST-like):
 
 ### Первый эндпойнт - запись значения 
-> POST /values?ttl={values_ttl:int}
+> POST /values?ttl={ttl:int}
 
 Схема запроса (Pydantic):
 
